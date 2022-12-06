@@ -29,3 +29,5 @@ console.log("Hi, There".substring(3, 6));
 const sentence = "I am new to learning JavaScript";
 
 console.log(sentence.slice(7, 30));
+
+
