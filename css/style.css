@@ -5,3 +5,7 @@ header {
     background-size: 10em;
 
 }
+img {
+    height: 250px;
+    width: 150px;
+}
