@@ -5,7 +5,10 @@ header {
     background-size: 10em;
 
 }
-img {
-    height: 250px;
-    width: 150px;
+.img {
+    height: 12em;
+    width: 300px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
