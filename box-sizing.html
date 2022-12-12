@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .content-box{
+        box-sizing: content-box;
+        width: 100px;
+        padding: 1rem;
+        border: solid 5px black;
+        
+    }
+    .border-box{
+        box-sizing: border-box;
+        width: 100px;
+        padding: 1rem;
+        border: solid 5px black;
+        position: absolute;
+        top: 0;
+        background-color: red;
+    }
+    .border-box:hover {
+        opacity: 0;
+    }
+</style>
+</head>
+<body>
+    
+    <div class="content-box" >
+        
+        <img width="100%" src="https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/5190_500x650.jpg" alt="">
+    </div>
+    <div class="border-box">
+        <img width="100%" src="https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/55709_500x650.jpg" alt="">
+    </div>
+</body>
+</html>
