@@ -1,18 +1,7 @@
-body {
-    background: blue;
-}
-header {
-    background-size: 10em;
-
-}
-.img {
-    height: 12em;
-    width: 300px;
-    padding: 1rem;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
-.button {
-    align-items: center;
-}
+* {
+  padding: 30px;   
+  box-sizing: border-box;   
+  }
+body {  
+  background: linear-gradient(130deg,rgb(91, 116, 68), rgb(9, 78, 156));
+  }

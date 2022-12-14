@@ -30,4 +30,10 @@ const sentence = "I am new to learning JavaScript";
 
 console.log(sentence.slice(7, 30));
 
+const theAge = prompt("What is your age?") ;
+if (theAge > 21){
+    console.log("you are okay to enter")
 
+} else{
+    console.log("Go home!")
+}
