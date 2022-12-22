@@ -1,0 +1,59 @@
+    .col-md-3 {
+        border: solid 1px black;
+      } 
+      * {
+        box-sizing: border-box;
+      }
+      html, body {
+        width: 100%;
+        height:500%;
+      }
+      
+      body {
+        background: linear-gradient(-130deg,rgb(91, 116, 68), rgb(9, 78, 156));
+          background-size: 100% ;
+         
+      }
+
+      .card-img-top {
+        object-fit: cover; 
+        aspect-ratio: 1/1;
+      }
+
+      .col-lg-3{
+        margin-top: 10px;
+      }
+
+      .card {
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+    .button {
+        position: absolute;
+        bottom: 2em;
+      } 
+      .row {
+        margin-top:5px;
+        margin-bottom: 5px;
+      }     
+      
+    @keyframes textclip {
+        to {
+            background-position: 100% center;
+            }
+      }
+      
+      
+      @keyframes gradient {
+          0% {
+              background-position: 0% 50%;
+          }
+          50% {
+              background-position: 100% 50%;
+          }
+          100% {
+              background-position: 0% 50%;
+          }
+      }
+    
